@@ -8,9 +8,9 @@
 import Foundation
 import SwiftUI
 
-struct ForgotPasswordView<Router: Routing>: AppView where Router.Route == AuthRoute {
-    let router: Router
-    let viewModel: AuthViewModel
+struct ForgotPasswordView: View  {
+    
+    
     var body: some View {
         VStack {}
         .padding()

@@ -8,9 +8,8 @@
 import Foundation
 import SwiftUI
 
-struct RegisterView<Router: Routing>: AppView where Router.Route == AuthRoute {
-    let router: Router
-    let viewModel: AuthViewModel
+struct RegisterView: View  {
+
     
     var body: some View {
         

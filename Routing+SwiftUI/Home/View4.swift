@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct ViewD<Router: Routing>: AppView where Router.Route == AppRoute {
+struct ViewD: View  {
     
-    @State var activeNavigation: AppRoute?
-    let router: Router
-    let viewModel: AppViewModel
+//    @State var activeNavigation: AppRoute?
+//    let router: Router
+//    let viewModel: AppViewModel
     
     var body: some View {
             VStack {

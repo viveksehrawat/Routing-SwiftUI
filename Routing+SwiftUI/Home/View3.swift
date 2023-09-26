@@ -1,24 +1,23 @@
 //
-//  LoginView.swift
+//  View3.swift
 //  Routing+SwiftUI
 //
 //  Created by Vivek Sehrawat on 14/09/23.
 //
 
-import Foundation
 import SwiftUI
 
-struct LoginView:View  {
-    
+struct ViewC: View  {
+   
     
     var body: some View {
-        
+        VStack {
+            Button("Go to Page 4") {
+            }
             
-                Text("Go to Sign Up")
            
-            
         }
-        
+        .navigationBarTitle("Page 3")
 
     }
-
+}

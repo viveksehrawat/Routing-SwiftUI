@@ -21,12 +21,18 @@
 		435D42EC2AB318E500441493 /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42EB2AB318E500441493 /* View3.swift */; };
 		435D42EE2AB318EF00441493 /* View4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42ED2AB318EF00441493 /* View4.swift */; };
 		435D42F02AB318F800441493 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42EF2AB318F800441493 /* HomeView.swift */; };
-		435D42F32AB31A0E00441493 /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42F22AB31A0E00441493 /* AuthRouter.swift */; };
-		435D42F62AB31A3500441493 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42F52AB31A3500441493 /* AppRouter.swift */; };
-		435D42F92AB31A8000441493 /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42F82AB31A8000441493 /* Routing.swift */; };
-		435D42FB2AB31AA600441493 /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42FA2AB31AA600441493 /* Routes.swift */; };
-		435D42FD2AB31B0000441493 /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42FC2AB31B0000441493 /* ViewModelProtocol.swift */; };
-		435D42FF2AB31B3C00441493 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42FE2AB31B3C00441493 /* AppView.swift */; };
+		43C52BC92AC2983B009D5692 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C52BC82AC2983B009D5692 /* Coordinator.swift */; };
+		43C52BCB2AC2989D009D5692 /* DeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C52BCA2AC2989D009D5692 /* DeepLink.swift */; };
+		43C52BCD2AC29984009D5692 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C52BCC2AC29984009D5692 /* MainCoordinator.swift */; };
+		43C52BCF2AC29EF1009D5692 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C52BCE2AC29EF1009D5692 /* NavigationRouter.swift */; };
+		43C52BD12AC29F1C009D5692 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C52BD02AC29F1C009D5692 /* Navigator.swift */; };
+		43C52BD32AC2A04E009D5692 /* RouterViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C52BD22AC2A04E009D5692 /* RouterViewFactory.swift */; };
+		43C52BD52AC2A9F8009D5692 /* AuthRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C52BD42AC2A9F8009D5692 /* AuthRoute.swift */; };
+		43C52BD72AC2AA67009D5692 /* HomeRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C52BD62AC2AA67009D5692 /* HomeRoute.swift */; };
+		43C52BD92AC2AC24009D5692 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C52BD82AC2AC24009D5692 /* AuthCoordinator.swift */; };
+		43C52BDB2AC2AF58009D5692 /* MainRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C52BDA2AC2AF58009D5692 /* MainRoute.swift */; };
+		43C52BDD2AC2AFBD009D5692 /* MainAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C52BDC2AC2AFBD009D5692 /* MainAction.swift */; };
+		43C52BDF2AC2B49C009D5692 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C52BDE2AC2B49C009D5692 /* HomeCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,12 +70,18 @@
 		435D42EB2AB318E500441493 /* View3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
 		435D42ED2AB318EF00441493 /* View4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View4.swift; sourceTree = "<group>"; };
 		435D42EF2AB318F800441493 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		435D42F22AB31A0E00441493 /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
-		435D42F52AB31A3500441493 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
-		435D42F82AB31A8000441493 /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
-		435D42FA2AB31AA600441493 /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
-		435D42FC2AB31B0000441493 /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
-		435D42FE2AB31B3C00441493 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		43C52BC82AC2983B009D5692 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		43C52BCA2AC2989D009D5692 /* DeepLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLink.swift; sourceTree = "<group>"; };
+		43C52BCC2AC29984009D5692 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		43C52BCE2AC29EF1009D5692 /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
+		43C52BD02AC29F1C009D5692 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		43C52BD22AC2A04E009D5692 /* RouterViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterViewFactory.swift; sourceTree = "<group>"; };
+		43C52BD42AC2A9F8009D5692 /* AuthRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRoute.swift; sourceTree = "<group>"; };
+		43C52BD62AC2AA67009D5692 /* HomeRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoute.swift; sourceTree = "<group>"; };
+		43C52BD82AC2AC24009D5692 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		43C52BDA2AC2AF58009D5692 /* MainRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRoute.swift; sourceTree = "<group>"; };
+		43C52BDC2AC2AFBD009D5692 /* MainAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAction.swift; sourceTree = "<group>"; };
+		43C52BDE2AC2B49C009D5692 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,9 +135,12 @@
 				435D42B52AB2C83400441493 /* Routing_SwiftUIApp.swift */,
 				435D42DF2AB2DF7600441493 /* ContentView.swift */,
 				435D42EF2AB318F800441493 /* HomeView.swift */,
+				43C52BCC2AC29984009D5692 /* MainCoordinator.swift */,
+				43C52BDA2AC2AF58009D5692 /* MainRoute.swift */,
+				43C52BDC2AC2AFBD009D5692 /* MainAction.swift */,
 				435D42F72AB31A5900441493 /* Routing Protocols */,
 				435D42E22AB318A100441493 /* Auth */,
-				435D42E12AB3189800441493 /* Dashboard */,
+				435D42E12AB3189800441493 /* Home */,
 				435D42B92AB2C83600441493 /* Assets.xcassets */,
 				435D42BB2AB2C83600441493 /* Preview Content */,
 			);
@@ -157,21 +172,23 @@
 			path = "Routing+SwiftUIUITests";
 			sourceTree = "<group>";
 		};
-		435D42E12AB3189800441493 /* Dashboard */ = {
+		435D42E12AB3189800441493 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				435D42F42AB31A2500441493 /* AppRouter */,
+				43C52BDE2AC2B49C009D5692 /* HomeCoordinator.swift */,
+				43C52BD62AC2AA67009D5692 /* HomeRoute.swift */,
 				435D42E92AB318DC00441493 /* View2.swift */,
 				435D42EB2AB318E500441493 /* View3.swift */,
 				435D42ED2AB318EF00441493 /* View4.swift */,
 			);
-			path = Dashboard;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		435D42E22AB318A100441493 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				435D42F12AB319FA00441493 /* AuthRouter */,
+				43C52BD42AC2A9F8009D5692 /* AuthRoute.swift */,
+				43C52BD82AC2AC24009D5692 /* AuthCoordinator.swift */,
 				435D42E32AB318B500441493 /* LoginView.swift */,
 				435D42E52AB318C200441493 /* RegisterView.swift */,
 				435D42E72AB318D000441493 /* ForgotPassView.swift */,
@@ -179,29 +196,14 @@
 			path = Auth;
 			sourceTree = "<group>";
 		};
-		435D42F12AB319FA00441493 /* AuthRouter */ = {
-			isa = PBXGroup;
-			children = (
-				435D42F22AB31A0E00441493 /* AuthRouter.swift */,
-			);
-			path = AuthRouter;
-			sourceTree = "<group>";
-		};
-		435D42F42AB31A2500441493 /* AppRouter */ = {
-			isa = PBXGroup;
-			children = (
-				435D42F52AB31A3500441493 /* AppRouter.swift */,
-			);
-			path = AppRouter;
-			sourceTree = "<group>";
-		};
 		435D42F72AB31A5900441493 /* Routing Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				435D42F82AB31A8000441493 /* Routing.swift */,
-				435D42FE2AB31B3C00441493 /* AppView.swift */,
-				435D42FC2AB31B0000441493 /* ViewModelProtocol.swift */,
-				435D42FA2AB31AA600441493 /* Routes.swift */,
+				43C52BC82AC2983B009D5692 /* Coordinator.swift */,
+				43C52BD02AC29F1C009D5692 /* Navigator.swift */,
+				43C52BCE2AC29EF1009D5692 /* NavigationRouter.swift */,
+				43C52BCA2AC2989D009D5692 /* DeepLink.swift */,
+				43C52BD22AC2A04E009D5692 /* RouterViewFactory.swift */,
 			);
 			path = "Routing Protocols";
 			sourceTree = "<group>";
@@ -336,20 +338,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43C52BC92AC2983B009D5692 /* Coordinator.swift in Sources */,
+				43C52BD72AC2AA67009D5692 /* HomeRoute.swift in Sources */,
+				43C52BDD2AC2AFBD009D5692 /* MainAction.swift in Sources */,
+				43C52BD52AC2A9F8009D5692 /* AuthRoute.swift in Sources */,
 				435D42E82AB318D000441493 /* ForgotPassView.swift in Sources */,
+				43C52BDF2AC2B49C009D5692 /* HomeCoordinator.swift in Sources */,
 				435D42E02AB2DF7600441493 /* ContentView.swift in Sources */,
-				435D42F32AB31A0E00441493 /* AuthRouter.swift in Sources */,
 				435D42F02AB318F800441493 /* HomeView.swift in Sources */,
-				435D42FD2AB31B0000441493 /* ViewModelProtocol.swift in Sources */,
 				435D42E62AB318C200441493 /* RegisterView.swift in Sources */,
+				43C52BCB2AC2989D009D5692 /* DeepLink.swift in Sources */,
+				43C52BD12AC29F1C009D5692 /* Navigator.swift in Sources */,
+				43C52BD32AC2A04E009D5692 /* RouterViewFactory.swift in Sources */,
 				435D42EE2AB318EF00441493 /* View4.swift in Sources */,
 				435D42EC2AB318E500441493 /* View3.swift in Sources */,
-				435D42FF2AB31B3C00441493 /* AppView.swift in Sources */,
-				435D42F62AB31A3500441493 /* AppRouter.swift in Sources */,
-				435D42FB2AB31AA600441493 /* Routes.swift in Sources */,
-				435D42F92AB31A8000441493 /* Routing.swift in Sources */,
+				43C52BCD2AC29984009D5692 /* MainCoordinator.swift in Sources */,
+				43C52BDB2AC2AF58009D5692 /* MainRoute.swift in Sources */,
+				43C52BCF2AC29EF1009D5692 /* NavigationRouter.swift in Sources */,
 				435D42EA2AB318DC00441493 /* View2.swift in Sources */,
 				435D42E42AB318B500441493 /* LoginView.swift in Sources */,
+				43C52BD92AC2AC24009D5692 /* AuthCoordinator.swift in Sources */,
 				435D42B62AB2C83400441493 /* Routing_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,7 +524,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -545,7 +553,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
