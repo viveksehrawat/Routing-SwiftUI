@@ -10,17 +10,31 @@ import SwiftUI
 
 class AuthCoordinator: Routing {
     
+    func handle(_ action: CoordinatorAction) {
+//        switch action {
+//        case AuthAction.register:
+//            try? show(route: .triangle)
+//        case AuthAction.forgot:
+//            try? show(route: .star)
+//        }
+    }
+    
     typealias Route = AuthRoute
-    @Published var path = NavigationPath()
+    @Published var path: NavigationPath
+    
+    func getRoutes() -> AuthRoute.Type {
+        return AuthRoute.self
+    }
     
     // Root coordinator doesnot have a parent
     var parent: Coordinator?
     var childCoordinators: [Coordinator] = [Coordinator]()
     let startRoute: AuthRoute
     
-    init(parent: Coordinator?,startRoute: AuthRoute = .login) {
+    init(parent: Coordinator?,path: NavigationPath, startRoute: AuthRoute = .login) {
         self.startRoute = startRoute
         self.parent = parent
+        self.path = path
     }
     
 }
@@ -32,9 +46,9 @@ extension AuthCoordinator: RouterViewFactory {
     public func view(for route: AuthRoute) -> some View {
         switch route {
         case .login:
-            LoginView()
+            LoginView<AuthCoordinator>()
         case .register:
-            RegisterView()
+            RegisterView<AuthCoordinator>()
         case .forgotPassword:
             ForgotPasswordView()
         }

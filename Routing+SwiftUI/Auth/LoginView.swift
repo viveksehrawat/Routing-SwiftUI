@@ -8,17 +8,12 @@
 import Foundation
 import SwiftUI
 
-struct LoginView:View  {
-    
+struct LoginView<Coordinator: Routing> :View  {
+    @EnvironmentObject var coordinator: Coordinator
     
     var body: some View {
-        
-            
-                Text("Go to Sign Up")
-           
-            
+        Button("Go to Sign Up"){
+            coordinator.handle(AuthAction.register)
         }
-        
-
     }
-
+}

@@ -13,14 +13,14 @@
 		435D42C72AB2C83600441493 /* Routing_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42C62AB2C83600441493 /* Routing_SwiftUITests.swift */; };
 		435D42D12AB2C83600441493 /* Routing_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42D02AB2C83600441493 /* Routing_SwiftUIUITests.swift */; };
 		435D42D32AB2C83600441493 /* Routing_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42D22AB2C83600441493 /* Routing_SwiftUIUITestsLaunchTests.swift */; };
-		435D42E02AB2DF7600441493 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42DF2AB2DF7600441493 /* ContentView.swift */; };
+		435D42E02AB2DF7600441493 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42DF2AB2DF7600441493 /* SplashView.swift */; };
 		435D42E42AB318B500441493 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42E32AB318B500441493 /* LoginView.swift */; };
 		435D42E62AB318C200441493 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42E52AB318C200441493 /* RegisterView.swift */; };
 		435D42E82AB318D000441493 /* ForgotPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42E72AB318D000441493 /* ForgotPassView.swift */; };
 		435D42EA2AB318DC00441493 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42E92AB318DC00441493 /* View2.swift */; };
 		435D42EC2AB318E500441493 /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42EB2AB318E500441493 /* View3.swift */; };
 		435D42EE2AB318EF00441493 /* View4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42ED2AB318EF00441493 /* View4.swift */; };
-		435D42F02AB318F800441493 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42EF2AB318F800441493 /* HomeView.swift */; };
+		435D42F02AB318F800441493 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D42EF2AB318F800441493 /* View1.swift */; };
 		43C52BC92AC2983B009D5692 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C52BC82AC2983B009D5692 /* Coordinator.swift */; };
 		43C52BCB2AC2989D009D5692 /* DeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C52BCA2AC2989D009D5692 /* DeepLink.swift */; };
 		43C52BCD2AC29984009D5692 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C52BCC2AC29984009D5692 /* MainCoordinator.swift */; };
@@ -62,14 +62,14 @@
 		435D42CC2AB2C83600441493 /* Routing+SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Routing+SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		435D42D02AB2C83600441493 /* Routing_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		435D42D22AB2C83600441493 /* Routing_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		435D42DF2AB2DF7600441493 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		435D42DF2AB2DF7600441493 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		435D42E32AB318B500441493 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		435D42E52AB318C200441493 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		435D42E72AB318D000441493 /* ForgotPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassView.swift; sourceTree = "<group>"; };
 		435D42E92AB318DC00441493 /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
 		435D42EB2AB318E500441493 /* View3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
 		435D42ED2AB318EF00441493 /* View4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View4.swift; sourceTree = "<group>"; };
-		435D42EF2AB318F800441493 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		435D42EF2AB318F800441493 /* View1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
 		43C52BC82AC2983B009D5692 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		43C52BCA2AC2989D009D5692 /* DeepLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLink.swift; sourceTree = "<group>"; };
 		43C52BCC2AC29984009D5692 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
@@ -133,8 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				435D42B52AB2C83400441493 /* Routing_SwiftUIApp.swift */,
-				435D42DF2AB2DF7600441493 /* ContentView.swift */,
-				435D42EF2AB318F800441493 /* HomeView.swift */,
+				435D42DF2AB2DF7600441493 /* SplashView.swift */,
 				43C52BCC2AC29984009D5692 /* MainCoordinator.swift */,
 				43C52BDA2AC2AF58009D5692 /* MainRoute.swift */,
 				43C52BDC2AC2AFBD009D5692 /* MainAction.swift */,
@@ -177,6 +176,7 @@
 			children = (
 				43C52BDE2AC2B49C009D5692 /* HomeCoordinator.swift */,
 				43C52BD62AC2AA67009D5692 /* HomeRoute.swift */,
+				435D42EF2AB318F800441493 /* View1.swift */,
 				435D42E92AB318DC00441493 /* View2.swift */,
 				435D42EB2AB318E500441493 /* View3.swift */,
 				435D42ED2AB318EF00441493 /* View4.swift */,
@@ -344,8 +344,8 @@
 				43C52BD52AC2A9F8009D5692 /* AuthRoute.swift in Sources */,
 				435D42E82AB318D000441493 /* ForgotPassView.swift in Sources */,
 				43C52BDF2AC2B49C009D5692 /* HomeCoordinator.swift in Sources */,
-				435D42E02AB2DF7600441493 /* ContentView.swift in Sources */,
-				435D42F02AB318F800441493 /* HomeView.swift in Sources */,
+				435D42E02AB2DF7600441493 /* SplashView.swift in Sources */,
+				435D42F02AB318F800441493 /* View1.swift in Sources */,
 				435D42E62AB318C200441493 /* RegisterView.swift in Sources */,
 				43C52BCB2AC2989D009D5692 /* DeepLink.swift in Sources */,
 				43C52BD12AC29F1C009D5692 /* Navigator.swift in Sources */,

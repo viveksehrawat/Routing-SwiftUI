@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ViewA: View {
+struct ViewA<Coordinator: Routing> : View {
     var body: some View {
         Button("Go to Page 2") {
         }

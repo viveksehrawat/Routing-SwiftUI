@@ -29,3 +29,10 @@ enum AuthRoute: NavigationRoute {
     }
 
 }
+
+enum AuthAction: CoordinatorAction {
+    case login
+    case register
+    case forgot
+    
+}

@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct Routing_SwiftUIApp: App {
+    @AppStorage("authToken") var authToken: String?
+    @StateObject private var mainCoordinator = MainCoordinator(path: NavigationPath())
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack(path: $mainCoordinator.path) {
+                mainCoordinator.view(for: MainRoute.splash)
+                    .navigationDestination(for: mainCoordinator.getRoutes()) { page in
+                        mainCoordinator.view(for: MainRoute.splash)
+                    }
+                    
+            }
+            .environmentObject(mainCoordinator)
+
         }
     }
 }

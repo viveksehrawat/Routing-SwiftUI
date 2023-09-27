@@ -9,20 +9,28 @@ import SwiftUI
 import Combine
 
 class MainCoordinator: Routing {
-   
-    typealias Route = AuthRoute
+    typealias Route = MainRoute
 
-    @Published var path = NavigationPath()
-
+    @Published var path: NavigationPath
+    
+    init(path: NavigationPath) {
+        self.path = path
+    }
+    
     // Root coordinator doesnot have a parent
     var parent: Coordinator? = nil
     var childCoordinators: [Coordinator] = [Coordinator]()
-    let startRoute: AuthRoute
-
-    init(startRoute: AuthRoute) {
-        self.startRoute = startRoute
+    let startRoute: MainRoute = MainRoute.splash
+        
+    func build() -> some View {
+        let splashView = SplashView<MainCoordinator>()
+        return splashView
     }
     
+    func getRoutes() -> MainRoute.Type {
+        return MainRoute.self        
+    }
+
     func handle(_ action: CoordinatorAction) {
         switch action {
         case MainAction.auth:
@@ -31,24 +39,13 @@ class MainCoordinator: Routing {
         case MainAction.home:
             let coordinator = makeAuthCoordinator()
             try? coordinator.start()
-//        case let ShapesAction.featuredShape(route):
-//            switch route {
-//            case let shapeRoute as SimpleShapesRoute where shapeRoute != .simpleShapes:
-//                let coordinator = makeSimpleShapesCoordinator()
-//                coordinator.append(routes: [.simpleShapes, shapeRoute])
-//            case let shapeRoute as CustomShapesRoute where shapeRoute != .customShapes:
-//                let coordinator = makeCustomShapesCoordinator()
-//                coordinator.append(routes: [.customShapes, shapeRoute])
-//            default:
-//                return
-//            }
         default:
             break
         }
     }
     
     private func makeAuthCoordinator() -> AuthCoordinator {
-        let coordinator = AuthCoordinator(parent: self)
+        let coordinator = AuthCoordinator(parent: self, path: path)
         add(child: coordinator)
         return coordinator
     }
@@ -63,14 +60,10 @@ class MainCoordinator: Routing {
 // MARK: - RouterViewFactory
 extension MainCoordinator: RouterViewFactory {
     @ViewBuilder
-    public func view(for route: AuthRoute) -> some View {
+    public func view(for route: MainRoute) -> some View {
         switch route {
-        case .login:
-            LoginView()
-        case .register:
-            RegisterView()
-        case .forgotPassword:
-            ForgotPasswordView()
+        case .splash:
+            SplashView<MainCoordinator>()
         }
     }
 }

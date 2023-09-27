@@ -10,5 +10,4 @@ import Foundation
 enum MainAction: CoordinatorAction {
     case auth
     case home
-    case specfic(NavigationRoute)
 }

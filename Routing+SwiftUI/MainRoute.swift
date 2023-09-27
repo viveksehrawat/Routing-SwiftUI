@@ -8,14 +8,8 @@
 import Foundation
 
 enum MainRoute: NavigationRoute {
-    case auth
-    case home
-    
+    case splash
     var title: String? {
-        return ""
-    }
-    
-    var action: TransitionAction? {
-        return .push(animated: true)
+        return "Splash Loading"
     }
 }

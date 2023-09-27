@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct RegisterView: View  {
+struct RegisterView<Coordinator: Routing>: View  {
 
     
     var body: some View {

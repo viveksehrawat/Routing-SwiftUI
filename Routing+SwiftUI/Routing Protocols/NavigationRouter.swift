@@ -7,16 +7,11 @@
 
 import SwiftUI
 
-public protocol NavigationRoute {
+public protocol NavigationRoute: Hashable {
     var title: String? { get }
-    var action: TransitionAction? { get }
+    
 }
 
 public enum TransitionAction {
     case push(animated: Bool)
-    case present(
-        animated: Bool,
-        modalPresentationStyle: UIModalPresentationStyle = .automatic,
-        completion: (() -> Void)? = nil
-    )
 }
